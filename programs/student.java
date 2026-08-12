@@ -8,4 +8,6 @@ class Student {
         String name = "Divya";
 
     }
+
+    short marks = 85;
 }
