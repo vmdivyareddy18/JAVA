@@ -9,5 +9,4 @@ class Student {
 
     }
 
-    short marks = 85;
 }
