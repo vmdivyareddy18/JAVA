@@ -1,5 +1,6 @@
 public class oparator {
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
 
         int a = 10;
         int b = 3;
@@ -11,5 +12,4 @@ public class oparator {
         System.out.println("Remainder: " + (a % b));
 
     }
-}
 }
