@@ -7,8 +7,5 @@ class Student {
         boolean isStudent = true;
         String name = "Divya";
 
-        System.out.println(name);
-        System.out.println(age);
-
     }
 }
