@@ -12,6 +12,8 @@ The examples are intentionally small so each concept can be compiled and run ind
 - `oparator.java` demonstrates arithmetic operators.
 - `programs/student.java` demonstrates common variable types.
 
+The source filename does not need to match a package-private class name.
+
 ## Compile
 
 ```sh
