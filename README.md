@@ -11,6 +11,16 @@ The examples are intentionally small so each concept can be compiled and run ind
 - `helloo.java` demonstrates formatted output.
 - `oparator.java` demonstrates arithmetic operators.
 - `programs/student.java` demonstrates common variable types.
+- `programs/conditionals.java` demonstrates branching.
+- `programs/loops.java` demonstrates a `for` loop.
+- `programs/arrays.java` demonstrates arrays.
+- `programs/methods.java` demonstrates methods.
+- `programs/strings.java` demonstrates string operations.
+- `programs/switches.java` demonstrates `switch` statements.
+- `programs/booleans.java` demonstrates boolean logic.
+- `programs/casting.java` demonstrates numeric casting.
+- `programs/userinput.java` demonstrates standard input.
+- `programs/objects.java` demonstrates a class and object.
 
 The source filename does not need to match a package-private class name.
 
