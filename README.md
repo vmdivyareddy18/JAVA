@@ -21,6 +21,7 @@ javac -d out oparator.java
 java -cp out oparator
 javac -d out programs/student.java
 java -cp out Student
+```
 
 
 These examples can be compiled with any modern JDK.
