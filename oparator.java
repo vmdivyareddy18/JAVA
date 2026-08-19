@@ -11,6 +11,9 @@ public class oparator {
         System.out.println("Division: " + (a / b));
         System.out.println("Remainder: " + (a % b));
 
-        
+    }
+
+    float divide(int a, int b) {
+        return (float) a / b;
     }
 }
