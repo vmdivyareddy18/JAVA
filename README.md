@@ -45,3 +45,9 @@ These examples can be compiled with any modern JDK.
 Compile each source file into the `out` directory before running its class.
 
 To remove compiled output, delete the `out` directory and compile again.
+
+To compile every example at once:
+
+```sh
+javac -d out hello.java HelloWorld.java helloo.java oparator.java programs/*.java
+```
