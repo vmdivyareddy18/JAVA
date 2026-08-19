@@ -25,3 +25,7 @@ java -cp out Student
 
 
 These examples can be compiled with any modern JDK.
+
+## Run
+
+Compile each source file into the `out` directory before running its class.
