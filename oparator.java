@@ -28,4 +28,8 @@ public class oparator {
         int b = 3;
         System.out.println("Division: " + divide(a, b));
     }
+
+    float divide(int a, int b) {
+        return (float) a / b;
+    }
 }
