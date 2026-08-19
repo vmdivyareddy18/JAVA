@@ -17,5 +17,9 @@ public class oparator {
         return (float) a / b;
         system.out.println("Division: " + divide(a, b));
         double result = divide(a, b);
+        while (result > 0) {
+            System.out.println("Result: " + result);
+            result--;
+        }
     }
 }
