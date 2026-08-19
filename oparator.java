@@ -21,5 +21,11 @@ public class oparator {
             System.out.println("Result: " + result);
             result--;
         }
+        keyword:
+
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 3;
+        System.out.println("Division: " + divide(a, b));
     }
 }
