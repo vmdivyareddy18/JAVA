@@ -2,6 +2,8 @@
 
 Small Java examples for learning syntax, variables, operators, and output.
 
+The examples are intentionally small so each concept can be compiled and run independently.
+
 ## Examples
 
 - `hello.java` prints a basic greeting.
