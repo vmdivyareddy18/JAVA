@@ -32,4 +32,6 @@ public class oparator {
     float divide(int a, int b) {
         return (float) a / b;
     }
+
+    java.util.Scanner scanner = new java.util.Scanner(System.in);8
 }
