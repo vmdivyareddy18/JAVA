@@ -29,3 +29,5 @@ These examples can be compiled with any modern JDK.
 ## Run
 
 Compile each source file into the `out` directory before running its class.
+
+To remove compiled output, delete the `out` directory and compile again.
