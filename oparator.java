@@ -33,11 +33,7 @@ public class oparator {
         return (float) a / b;
     }
 
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 3;
-        System.out.println("Division: " + divide(a, b));
-    }
+    p
 
     java.util.Scanner scanner = new java.util.Scanner(System.in);8
 }
