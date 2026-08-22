@@ -5,6 +5,7 @@ class HelloWorld {
 
     public static void main(String[] args) {
         printMessage(GREETING);
+        printMessage(" ");
         printMessage(CLOSING);
     }
 
