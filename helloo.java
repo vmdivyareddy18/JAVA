@@ -8,7 +8,7 @@ class HelloWorld {
         printMessage(CLOSING);
     }
 
-    private static void printMessage(String message) {
+    private static void printMessage(final String message) {
         System.out.println(message);
     }
 }
