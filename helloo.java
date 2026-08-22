@@ -1,6 +1,6 @@
 
 class HelloWorld {
-    private static final String GREETING = "Hello, World!";
+    private static final String GREETING = "Hello, Java!";
     private static final String CLOSING = "Have a nice day!";
     private static final String SEPARATOR = "---";
     private static final String WELCOME = "Welcome to Java.";
