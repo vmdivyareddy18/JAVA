@@ -5,7 +5,7 @@ class HelloWorld {
 
     public static void main(String[] args) {
         printMessage(GREETING);
-        System.out.println(CLOSING);
+        printMessage(CLOSING);
     }
 
     private static void printMessage(String message) {
