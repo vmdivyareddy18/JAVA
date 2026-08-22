@@ -8,7 +8,7 @@ class HelloWorld {
     public static void main(String[] args) {
         printMessage(GREETING);
         printMessage(SEPARATOR);
-        printMessage(WELCOME);
+        printMessage(WELCOME.toUpperCase());
         printMessage(CLOSING);
     }
 
