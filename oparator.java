@@ -29,11 +29,5 @@ public class oparator {
         System.out.println("Division: " + divide(a, b));
     }
 
-    float divide(int a, int b) {
-        return (float) a / b;
-    }
-
-    p
-
     java.util.Scanner scanner = new java.util.Scanner(System.in);8
 }
