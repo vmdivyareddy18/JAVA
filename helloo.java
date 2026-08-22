@@ -7,6 +7,7 @@ class HelloWorld {
     public static void main(String[] args) {
         printMessage(GREETING);
         printMessage(SEPARATOR + " ");
+        printMessage("Welcome to Java.");
         printMessage(CLOSING);
     }
 
