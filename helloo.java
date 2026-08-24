@@ -7,6 +7,7 @@ class HelloWorld {
     private static final String TITLE = "Simple Java Program";
     private static final String VERSION = "Version 1.0";
     private static final String AUTHOR = "By Divya";
+    private static final String LINE = "==========";
 
     public static void main(String[] args) {
         printMessage(TITLE);
