@@ -19,6 +19,7 @@ class HelloWorld {
         printMessage(SEPARATOR);
         printMessage(WELCOME.toUpperCase());
         printMessage(CLOSING + "!");
+        printMessage(END_LINE);
     }
 
     private static void printMessage(final String message) {
