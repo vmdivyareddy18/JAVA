@@ -7,6 +7,7 @@ class HelloWorld {
     private static final String TITLE = "Simple Java Program";
 
     public static void main(String[] args) {
+        printMessage(TITLE);
         printMessage(GREETING);
         printMessage(SEPARATOR);
         printMessage(WELCOME.toUpperCase());
