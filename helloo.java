@@ -9,7 +9,7 @@ class HelloWorld {
     private static final String AUTHOR = "By Divya";
     private static final String LINE = "==========";
     private static final String END_LINE = "----------";
-    private static final String FOOTER = "End of program";
+    private static final String FOOTER = "End of Java program";
 
     public static void main(String[] args) {
         printMessage(TITLE);
