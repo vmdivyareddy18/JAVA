@@ -20,7 +20,7 @@ class HelloWorld {
         printMessage(GREETING);
         printMessage(SEPARATOR);
         printMessage(WELCOME.toUpperCase());
-        printMessage(CLOSING + SPACE + "!");
+        printMessage(CLOSING + SPACE + "Thanks!");
         printMessage(END_LINE);
         printMessage(FOOTER);
     }
