@@ -23,7 +23,7 @@ class HelloWorld {
         printMessage(WELCOME.toUpperCase());
         printMessage(CLOSING + SPACE + "Thanks" + PUNCTUATION);
         printMessage(END_LINE);
-        printMessage(FOOTER);
+        printMessage(FOOTER + PUNCTUATION);
     }
 
     private static void printMessage(final String message) {
