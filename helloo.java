@@ -11,6 +11,7 @@ class HelloWorld {
 
     public static void main(String[] args) {
         printMessage(TITLE);
+        printMessage(LINE);
         printMessage(VERSION);
         printMessage(AUTHOR);
         printMessage(GREETING);
