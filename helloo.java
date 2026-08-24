@@ -10,6 +10,7 @@ class HelloWorld {
     private static final String LINE = "==========";
     private static final String END_LINE = "----------";
     private static final String FOOTER = "End of Java program";
+    private static final String SPACE = " ";
 
     public static void main(String[] args) {
         printMessage(TITLE);
@@ -19,7 +20,7 @@ class HelloWorld {
         printMessage(GREETING);
         printMessage(SEPARATOR);
         printMessage(WELCOME.toUpperCase());
-        printMessage(CLOSING + "!");
+        printMessage(CLOSING + SPACE + "!");
         printMessage(END_LINE);
         printMessage(FOOTER);
     }
