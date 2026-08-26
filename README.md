@@ -20,3 +20,4 @@ java -cp out WorldGreeting
 javac -d out oparator.java
 java -cp out oparator
 javac -d out programs/student.java
+java -cp out Student
