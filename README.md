@@ -16,3 +16,4 @@ Small Java examples for learning syntax, variables, operators, and output.
 javac -d out hello.java
 java -cp out BasicHello
 javac -d out HelloWorld.java
+java -cp out WorldGreeting
