@@ -8,3 +8,4 @@ Small Java examples for learning syntax, variables, operators, and output.
 - `HelloWorld.java` prints a world greeting.
 - `helloo.java` demonstrates formatted output.
 - `oparator.java` demonstrates arithmetic operators.
+- `programs/student.java` demonstrates common variable types.
