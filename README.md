@@ -11,3 +11,5 @@ Small Java examples for learning syntax, variables, operators, and output.
 - `programs/student.java` demonstrates common variable types.
 
 ## Compile
+
+```sh
