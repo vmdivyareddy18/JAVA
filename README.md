@@ -13,3 +13,4 @@ Small Java examples for learning syntax, variables, operators, and output.
 ## Compile
 
 ```sh
+javac -d out hello.java
