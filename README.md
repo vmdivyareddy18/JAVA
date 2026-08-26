@@ -17,3 +17,4 @@ javac -d out hello.java
 java -cp out BasicHello
 javac -d out HelloWorld.java
 java -cp out WorldGreeting
+javac -d out oparator.java
