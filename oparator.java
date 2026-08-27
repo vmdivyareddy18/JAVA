@@ -1,9 +1,11 @@
 public class oparator {
+    private static final int FIRST_NUMBER = 10;
+    private static final int SECOND_NUMBER = 3;
 
     public static void main(String[] args) {
 
-        int a = 10;
-        int b = 3;
+        int a = FIRST_NUMBER;
+        int b = SECOND_NUMBER;
 
         System.out.println("Addition: " + (a + b));
         System.out.println("Subtraction: " + (a - b));
