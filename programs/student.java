@@ -11,6 +11,7 @@ class Student {
         System.out.println("Age: " + age);
         System.out.println("Height: " + height);
         System.out.println("Grade: " + grade);
+        System.out.println("Student status: " + isStudent);
     }
 
 }
