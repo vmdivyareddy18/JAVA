@@ -12,6 +12,7 @@ class HelloWorld {
     private static final String FOOTER = "End of Java program";
     private static final String SPACE = " ";
     private static final String PUNCTUATION = "!!";
+    private static final String THANKS = "Thanks";
 
     public static void main(String[] args) {
         printMessage(TITLE);
@@ -21,7 +22,7 @@ class HelloWorld {
         printMessage(GREETING);
         printMessage(SEPARATOR);
         printMessage(WELCOME.toUpperCase());
-        printMessage(CLOSING + SPACE + "Thanks" + PUNCTUATION);
+        printMessage(CLOSING + SPACE + THANKS + PUNCTUATION);
         printMessage(END_LINE);
         printMessage(FOOTER + PUNCTUATION);
     }
