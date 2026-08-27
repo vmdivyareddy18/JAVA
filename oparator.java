@@ -13,6 +13,7 @@ public class oparator {
         System.out.println("Whole-number division: " + (a / b));
         System.out.println("Division: " + divide(a, b));
         System.out.println("Remainder: " + (a % b));
+        System.out.println("All arithmetic operations completed.");
 
     }
 
