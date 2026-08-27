@@ -8,6 +8,7 @@ class Student {
         String name = "Divya";
 
         System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
     }
 
 }
