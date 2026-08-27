@@ -13,6 +13,7 @@ class HelloWorld {
     private static final String SPACE = " ";
     private static final String PUNCTUATION = "!!";
     private static final String THANKS = "Thanks";
+    private static final String CLOSING_SPACE = " ";
 
     public static void main(String[] args) {
         printMessage(TITLE);
@@ -22,7 +23,7 @@ class HelloWorld {
         printMessage(GREETING);
         printMessage(SEPARATOR);
         printMessage(WELCOME.toUpperCase());
-        printMessage(CLOSING + SPACE + THANKS + PUNCTUATION);
+        printMessage(CLOSING + CLOSING_SPACE + THANKS + PUNCTUATION);
         printMessage(END_LINE);
         printMessage(FOOTER + PUNCTUATION);
     }
