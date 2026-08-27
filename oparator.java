@@ -4,8 +4,8 @@ public class oparator {
 
     public static void main(String[] args) {
 
-        int a = FIRST_NUMBER;
-        int b = SECOND_NUMBER;
+        final int a = FIRST_NUMBER;
+        final int b = SECOND_NUMBER;
 
         System.out.println("Addition: " + (a + b));
         System.out.println("Subtraction: " + (a - b));
