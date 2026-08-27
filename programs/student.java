@@ -7,6 +7,7 @@ class Student {
         boolean isStudent = true;
         String name = "Divya";
 
+        System.out.println("Name: " + name);
     }
 
 }
