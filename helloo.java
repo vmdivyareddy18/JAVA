@@ -1,5 +1,5 @@
 
-class HelloWorld {
+class FormattedGreeting {
     private static final String GREETING = "Hello, Java!";
     private static final String CLOSING = "Have a nice day!";
     private static final String SEPARATOR = "---";
