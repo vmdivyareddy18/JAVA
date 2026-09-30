@@ -24,7 +24,9 @@ The examples are intentionally small so each concept can be compiled and run ind
 - `programs/numberinput.java` demonstrates validated integer input.
 - `programs/exceptionhandling.java` demonstrates handling invalid number text.
 
-The source filename does not need to match a package-private class name.
+The source filename does not need to match a package-private class name, but it
+must match a `public` class name. The input examples use try-with-resources,
+so use JDK 7 or newer.
 
 ## Compile
 
@@ -40,7 +42,7 @@ java -cp out Student
 ```
 
 
-These examples can be compiled with any modern JDK.
+These examples can be compiled with JDK 7 or newer.
 
 ## Run
 
