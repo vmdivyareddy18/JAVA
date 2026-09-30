@@ -4,6 +4,11 @@ class Methods {
         final int secondNumber = 5;
 
         System.out.println("Product: " + multiply(firstNumber, secondNumber));
+        System.out.println("Square: " + multiply(firstNumber));
+    }
+
+    private static int multiply(int number) {
+        return multiply(number, number);
     }
 
     private static int multiply(int firstNumber, int secondNumber) {
