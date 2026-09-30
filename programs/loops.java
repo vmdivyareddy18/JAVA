@@ -13,5 +13,11 @@ class Loops {
             System.out.println("Countdown: " + countdown);
             countdown--;
         }
+
+        int attempts = 0;
+        do {
+            System.out.println("This runs at least once.");
+            attempts++;
+        } while (attempts < 1);
     }
 }
