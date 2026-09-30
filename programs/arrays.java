@@ -1,6 +1,11 @@
 class ArraysExample {
     public static void main(String[] args) {
         final int[] scores = { 85, 90, 78 };
+        if (scores.length == 0) {
+            System.out.println("No scores to summarize.");
+            return;
+        }
+
         int total = 0;
         int minimum = scores[0];
         int maximum = scores[0];
