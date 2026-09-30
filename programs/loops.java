@@ -7,5 +7,11 @@ class Loops {
         }
 
         System.out.println("Sum from 1 to 5: " + total);
+
+        int countdown = 3;
+        while (countdown > 0) {
+            System.out.println("Countdown: " + countdown);
+            countdown--;
+        }
     }
 }
