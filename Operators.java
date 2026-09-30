@@ -1,9 +1,8 @@
-public class oparator {
+public class Operators {
     private static final int FIRST_NUMBER = 10;
     private static final int SECOND_NUMBER = 3;
 
     public static void main(String[] args) {
-
         final int a = FIRST_NUMBER;
         final int b = SECOND_NUMBER;
 
@@ -14,7 +13,6 @@ public class oparator {
         System.out.println("Division: " + divide(a, b));
         System.out.println("Remainder: " + (a % b));
         System.out.println("All arithmetic operations completed.");
-
     }
 
     private static double divide(int a, int b) {

@@ -9,7 +9,7 @@ The examples are intentionally small so each concept can be compiled and run ind
 - `hello.java` prints a basic greeting.
 - `HelloWorld.java` prints a world greeting.
 - `helloo.java` demonstrates formatted output.
-- `oparator.java` demonstrates arithmetic operators.
+- `Operators.java` demonstrates arithmetic operators.
 - `programs/student.java` demonstrates common variable types.
 - `programs/conditionals.java` demonstrates branching.
 - `programs/loops.java` demonstrates `for`, `while`, and `do-while` loops.
@@ -35,8 +35,8 @@ javac -d out hello.java
 java -cp out BasicHello
 javac -d out HelloWorld.java
 java -cp out WorldGreeting
-javac -d out oparator.java
-java -cp out oparator
+javac -d out Operators.java
+java -cp out Operators
 javac -d out programs/student.java
 java -cp out Student
 ```
@@ -53,5 +53,5 @@ To remove compiled output, delete the `out` directory and compile again.
 To compile every example at once:
 
 ```sh
-javac -d out hello.java HelloWorld.java helloo.java oparator.java programs/*.java
+	javac -d out hello.java HelloWorld.java helloo.java Operators.java programs/*.java
 ```
