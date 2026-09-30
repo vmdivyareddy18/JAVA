@@ -12,7 +12,7 @@ The examples are intentionally small so each concept can be compiled and run ind
 - `oparator.java` demonstrates arithmetic operators.
 - `programs/student.java` demonstrates common variable types.
 - `programs/conditionals.java` demonstrates branching.
-- `programs/loops.java` demonstrates a `for` loop.
+- `programs/loops.java` demonstrates `for`, `while`, and `do-while` loops.
 - `programs/arrays.java` demonstrates arrays.
 - `programs/methods.java` demonstrates methods.
 - `programs/strings.java` demonstrates string operations.
@@ -21,6 +21,8 @@ The examples are intentionally small so each concept can be compiled and run ind
 - `programs/casting.java` demonstrates numeric casting.
 - `programs/userinput.java` demonstrates standard input.
 - `programs/objects.java` demonstrates a class and object.
+- `programs/numberinput.java` demonstrates validated integer input.
+- `programs/exceptionhandling.java` demonstrates handling invalid number text.
 
 The source filename does not need to match a package-private class name.
 
