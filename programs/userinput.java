@@ -5,7 +5,11 @@ class UserInput {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Enter your name: ");
             final String name = scanner.nextLine();
-            System.out.println("Hello, " + name + "!");
+            if (name.trim().isEmpty()) {
+                System.out.println("Name cannot be empty.");
+            } else {
+                System.out.println("Hello, " + name + "!");
+            }
         }
     }
 }
