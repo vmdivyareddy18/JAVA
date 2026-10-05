@@ -8,7 +8,7 @@ The examples are intentionally small so each concept can be compiled and run ind
 
 - `hello.java` prints a basic greeting.
 - `HelloWorld.java` prints a world greeting.
-- `helloo.java` demonstrates formatted output.
+- `helloo.java` prints a multi-line greeting.
 - `Operators.java` demonstrates arithmetic operators.
 - `programs/student.java` demonstrates common variable types.
 - `programs/conditionals.java` demonstrates branching.
@@ -49,6 +49,22 @@ These examples can be compiled with JDK 7 or newer.
 Compile each source file into the `out` directory before running its class.
 
 To remove compiled output, delete the `out` directory and compile again.
+
+For interactive examples, run the program and enter the requested value:
+
+```sh
+javac -d out programs/userinput.java
+java -cp out UserInput
+javac -d out programs/numberinput.java
+java -cp out NumberInput
+```
+
+For the command-line argument example, pass a whole number after the class name:
+
+```sh
+javac -d out programs/exceptionhandling.java
+java -cp out ExceptionHandling 42
+```
 
 To compile every example at once:
 
